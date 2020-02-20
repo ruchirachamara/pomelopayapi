@@ -1,0 +1,29 @@
+{
+    "name": "pomelopayapi",
+    "version": "1.0.0",
+    "description": "API for the pomelopay mobile application",
+    "main": "dist/app.js",
+    "scripts": {
+        "start": "tsc && node dist/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ruchirachamara/pomelopayapi.git"
+    },
+    "author": "Ruchira Chamara",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ruchirachamara/pomelopayapi/issues"
+    },
+    "homepage": "https://github.com/ruchirachamara/pomelopayapi#readme",
+    "devDependencies": {
+        "@types/express": "^4.17.2",
+        "tslint": "^6.0.0",
+        "typescript": "^3.7.5"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    }
+}
